@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Meta-->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrocampo Peninsular V1</title>
+    <meta name="Author" content="Giovanni May">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Css-->
     <link rel="stylesheet" href="Css/Style.css">
+    <!--Icon-->
     <link rel="shortcut icon" href="Image/Icon.png">
+    <!--Title-->
+    <title>Agrocampo Peninsular V1</title>
 </head>
 <body><!--Inicio del cuerpo-->
-    <div id="Principal">
-    <header> <!--Cabecera-->
-        <h1>AGROCAMPO TODO PARA EL CAMPO</h1>
-        <div id="img">
-            <a href="Index.html">
-                <img src="Image/Icon.png" alt="Logo" height="90%">
-            </a>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#"><img src="Image/Icon.png" alt="Logo" width="150"></a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header><!--Fin de lacabecera-->
-    <nav> <!--Menu-->
-        <ul> <!--Botones de navegacion-->
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Servicios</li>
-            <li>Productos</li>
-            <li>Contacto</li>
-        </ul>
-    </nav><!--Fin del menu-->
-    <section class="CotenidoSlider"> <!--Slider-->
-            <div id="slider" class="slider">
-                <div class="slider__section">
-                    <img src="Image/apicultura.jpeg" alt="" class="slider__img">
-                </div>
-                <div class="slider__section">
-                    <img src="Image/granja.jpg" alt="" class="slider__img">
-                </div>
-                <div class="slider__section">
-                    <img src="Image/mascotas.jpg" alt="" class="slider__img">
-                </div>
-                <div class="slider__section">
-                    <img src="Image/plantas.jpg" alt="" class="slider__img">
-                </div>
-            </div>
-            <div class="slider__btn slider__btn--right" id="btn-right">&#62;</div>
-            <div class="slider__btn slider__btn--left" id="btn-left">&#60;</div>
-        </div>
-    </section><!--Fin del Slider-->
-    <footer> <!--Piede de pagina-->
+    </nav>
+    <section class="hero align-items-stretch">
+      <div>
         <div>
-            Agrocampo Peninsular S.A. DE C.V.
-	        Calle 54A #501J x 65 y 67 Col. Centro  C.P. 97000 Mérida, Yucatán, México.
-	        Teléfonos: (999) 923 33 33 / 924 01 32 / 923 37 22
+          <h1>AGROCAMPO TODO PARA EL CAMPO</h1>
+          <img src="Image/plantas.jpg">
         </div>
-        <div>
-            © 2011 Agrocampo es una marca registrada.
-			Todos los derechos reservados agrocampopeninsular.com
-            Powered By <a href="https://github.com/Novakid" target="_blank">NovakidG</a>
-        </div>
-    </footer><!--Fin del pie de pagina-->
-    </div>
-    <script src="Javascript/Slider.js"></script>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body><!--Fin del cuerpo-->
 </html>
