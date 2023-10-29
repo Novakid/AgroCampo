@@ -1,6 +1,11 @@
 .navbar{
     padding: 1rem;
-    background-color: rgb(182, 235, 255);
+    background-image: url(https://img.freepik.com/vector-premium/fondo-pantalla-fondo-banner-animales-bebe-dibujos-animados-animales-lindos_493693-122.jpg);
+    background-size: cover wrap;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90px;
 }
 .navbar-collapse{
     align-items: center;
@@ -11,13 +16,32 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url(https://img.freepik.com/foto-gratis/prado-arboles-valla-madera_1160-287.jpg);
+    background-size: cover wrap;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 /* Seccion Principal */
 .hero{
     min-height: 450px;
     text-align: center;
 }
-
+/* Carousel */
+.carrusel{
+    padding: 0px 10px 80px 10px;
+}
+.carousel-images .carousel{
+    max-width: 500px;
+}
+.carousel-item{
+    object-fit: cover;
+    height: 250px;
+}
+.d-block{
+    width: 100%;
+    height: 100%;
+}
 /*Media Queries*/
 
 @media screen and (max-width: 767px){
