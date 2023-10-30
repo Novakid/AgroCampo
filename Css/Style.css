@@ -1,11 +1,33 @@
 .navbar{
     padding: 1rem;
-    background-image: url(https://img.freepik.com/vector-premium/fondo-pantalla-fondo-banner-animales-bebe-dibujos-animados-animales-lindos_493693-122.jpg);
-    background-size: cover wrap;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
     width: 100%;
-    height: 90px;
+    height: 80px;
+    background-color: rgba(201, 201, 201, 0.956);
+}
+.navbar-brand{
+    transition: 1s ease;
+ 	-moz-transition: 1s ease;
+ 	-webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+.navbar-brand:hover{
+    transform : scale(1.2);
+	-moz-transform : scale(1.2);
+	-webkit-transform : scale(1.2);
+	-o-transform : scale(1.2);
+}
+.nav-item{
+    transition: 1s ease;
+ 	-moz-transition: 1s ease;
+ 	-webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+.nav-item:hover{
+    border-bottom: solid;
+    transform : scale(1.5);
+	-moz-transform : scale(1.5);
+	-webkit-transform : scale(1.5);
+	-o-transform : scale(1.5);
 }
 .navbar-collapse{
     align-items: center;
@@ -16,16 +38,7 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(https://img.freepik.com/foto-gratis/prado-arboles-valla-madera_1160-287.jpg);
-    background-size: cover wrap;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-/* Seccion Principal */
-.hero{
-    min-height: 450px;
-    text-align: center;
+    background-color: #DFEEEE;
 }
 /* Carousel */
 .carrusel{
@@ -41,6 +54,33 @@ section{
 .d-block{
     width: 100%;
     height: 100%;
+}
+/* Seccion Principal */
+.hero{
+    min-height: 450px;
+    text-align: center;
+}
+/* Footer */
+.footer-texto{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.seccion-oscura{
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.seccion-oscura div{
+    justify-content: space-between;
+    display: block;
+    width: 48%;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+}
+.derecha{
+    text-align: right;
 }
 /*Media Queries*/
 
