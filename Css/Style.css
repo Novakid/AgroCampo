@@ -60,6 +60,31 @@ section{
     min-height: 450px;
     text-align: center;
 }
+/* Seccion card*/
+.row{/*Caja principal donde van las columnas*/
+    width: 100%;
+    height: auto;
+}
+.col{/*Columnas*/
+    width: 50%;
+}
+.card-img-top{/*Imagenes de las tarjetas*/
+    border: outset;
+    width: 100%;
+    height: 450px;
+}
+.card-body{/*Cajas de texto Titulo/Texto*/
+    border: outset;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titleH1{
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid;
+    border-top: solid;
+    margin: 20px 0px 20px 0px;
+}
 /* Footer */
 .footer-texto{
     font-size: 1rem;
@@ -82,8 +107,19 @@ section{
 .derecha{
     text-align: right;
 }
+.codeQr{/* Caja del contenido Imagen QR*/
+    width: 90%;
+    background: none;
+    border: none;
+}
+.col-md-4{
+    width: 15%;
+}
+.col-md-8{
+    width: 75%;
+    background: white;
+}
 /*Media Queries*/
-
 @media screen and (max-width: 767px){
     .navbar-brand{
         display: none;
