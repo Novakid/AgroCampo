@@ -2,7 +2,24 @@
     padding: 1rem;
     width: 100%;
     height: 80px;
-    background-color: rgba(201, 201, 201, 0.956);
+    background-color: rgb(2, 0, 125);
+}
+.verde{
+    background-color: green;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenido-verde{
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+.img-fluid{
+    padding-bottom: 3px;
+    width: 2%;
 }
 .navbar-brand{
     transition: 1s ease;
@@ -22,8 +39,13 @@
  	-webkit-transition: 1s ease;
     -o-transition: 1s ease;
 }
+.navbar-toggler{
+    background-color: #ffffff;
+    border: solid;
+}
 .nav-item:hover{
     border-bottom: solid;
+    color: #ffffff;
     transform : scale(1.5);
 	-moz-transform : scale(1.5);
 	-webkit-transform : scale(1.5);
@@ -38,18 +60,18 @@ section{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #DFEEEE;
+    background-color: #eeeded;
 }
 /* Carousel */
 .carrusel{
-    padding: 0px 10px 80px 10px;
+    width: 100%;
 }
 .carousel-images .carousel{
     max-width: 500px;
 }
 .carousel-item{
     object-fit: cover;
-    height: 250px;
+    height: 350px;
 }
 .d-block{
     width: 100%;
@@ -81,9 +103,21 @@ section{
     text-align: center;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: solid;
-    border-top: solid;
+    background-color: rgb(236, 255, 249);
+    padding-top: 5px;
     margin: 20px 0px 20px 0px;
+}
+.codeQr{/* Caja del contenido Imagen QR*/
+    width: 90%;
+    background: none;
+    border: none;
+}
+.col-md-4{
+    width: 15%;
+}
+.col-md-8{
+    width: 75%;
+    background: white;
 }
 /* Footer */
 .footer-texto{
@@ -91,7 +125,7 @@ section{
     font-family: Arial, Helvetica, sans-serif;
 }
 .seccion-oscura{
-    background-color: lightgray;
+    background-color: rgb(162, 161, 161);
     width: 100%;
     height: auto;
     overflow: hidden;
@@ -107,18 +141,7 @@ section{
 .derecha{
     text-align: right;
 }
-.codeQr{/* Caja del contenido Imagen QR*/
-    width: 90%;
-    background: none;
-    border: none;
-}
-.col-md-4{
-    width: 15%;
-}
-.col-md-8{
-    width: 75%;
-    background: white;
-}
+
 /*Media Queries*/
 @media screen and (max-width: 767px){
     .navbar-brand{
