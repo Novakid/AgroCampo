@@ -6,17 +6,17 @@ body{
     padding: 1rem;
     width: 100%;
     height: 80px;
-    background: linear-gradient(#014BA0, #0A5CB8);
+    background: linear-gradient(#2174d4, #0A5CB8);
 }
 .verde{ /*contenido del área verde de la pagina.*/
-    background: linear-gradient(#0A5CB8, #1466C3);
+    background: linear-gradient(#009929, #006414);
     width: 100%;
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top: solid;
-    border-color: #419f00;
+    border-color: #ffffff;
 }
 .contenido-verde{
     width: 100%;
@@ -89,10 +89,6 @@ section{
 .carousel-caption{
     background-color: #ffffff;
     opacity: .8;
-    border-top-left-radius: 35% 35%;
-    border-top-right-radius: 35% 35%;
-    border-bottom-right-radius: 35% 35%;
-    border-bottom-left-radius: 35% 35%;
 }
 /* Seccion Principal */
 .hero{
@@ -146,6 +142,27 @@ section{
     flex-grow: 2;
 }
 /*Imagenes de productos en circular*/
+.contenedor-imagenes-circulares{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.img-circle-1{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 15px 25px 15px 25px;
+    transition: 1s ease;
+ 	-moz-transition: 1s ease;
+ 	-webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+}
+.img-circle-1:hover{
+    transform : scale(1.2);
+	-moz-transform : scale(1.2);
+	-webkit-transform : scale(1.2);
+	-o-transform : scale(1.2);
+    box-shadow: #000000 3px 3px 5px;
+}
 
 /* Footer */
 .footer-texto{
